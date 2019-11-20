@@ -1,20 +1,25 @@
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+}
+
 .jrss-app-container {
   display: flex;
+  flex-direction: column;
   width: 100%;
   align-items: stretch;
   flex: 1;
   min-height: 100%;
   font-family: "Roboto", "Helvetica Neue";
-  color: #59C3C3;
+  color: #000000;
   padding: 15px;
-  background-color: #EBEBEB;
+  background-color: #25274D;
 }
 
-/*
-Colors
-------
-59C3C3 
-52489C
-CAD2C5
-84A98C
-*/
+.colors {
+  color: #25274D;
+  color: #464866;
+  color: #AAABB8;
+  color: #2E9CCA;
+  color: #29648A;
+}

@@ -1,0 +1,26 @@
+.jrss-header-container {
+    display: flex;
+}
+
+.jrss-header-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.jrss-header-img {
+    width: 100%;
+    border-radius: 5px;
+    /* border: 2px solid #AAABB8; */
+}
+
+.jrss-header-content{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 20px;
+    margin: 0 20px 0 20px;
+    background-color: #AAABB8;
+    border-radius: 5px;
+    justify-content: space-between;
+}
